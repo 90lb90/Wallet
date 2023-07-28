@@ -5,9 +5,6 @@ public  class Wallet {
     public static void main(String[] args) {
         Balance balance = new Balance();
         balance.parseDataFile();
-
-        System.out.println("Привет");
-
         Scanner scanner = new Scanner(System.in);
         String s ;
         String console = """
